@@ -1,0 +1,29 @@
+{
+  "name": "gestion_de_ventas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedegarcia2008/Gestion_de_Ventas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedegarcia2008/Gestion_de_Ventas/issues"
+  },
+  "homepage": "https://github.com/fedegarcia2008/Gestion_de_Ventas#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2",
+    "sweetalert2": "^11.26.25"
+  }
+}

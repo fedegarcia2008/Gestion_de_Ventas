@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    background-color: aqua;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 100%;
+    border: solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    gap: 30px;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+}
